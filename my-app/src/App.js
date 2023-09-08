@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import {
@@ -39,13 +38,15 @@ const data = {
 }
 
 const options = {
-  title: {
-    display: true,
-    text: 'MY DAILY ACTIVITIES',
-    position: 'top',
-    fontSize: 16,
-    fontColor: '#555',
-    padding: 20
+  plugins: {
+    title: {
+      display: true,
+      text: 'MY DAILY ACTIVITIES',
+      position: 'top',
+      fontSize: 20,
+      fontColor: '#555',
+      padding: 20
+    },
   },
 };
 
